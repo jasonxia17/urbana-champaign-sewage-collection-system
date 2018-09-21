@@ -30,10 +30,10 @@ Lift  stations  are  located  throughout  the  sewage  collection  system,  and 
 18.  LELS
 
 # Evaluation  criteria:
--Appropriateness  of  analytics  techniques  used  to  solve  the  problem.
--Were  lift  stations  where  the  most  I&I  is  entering  during  a  rainstorm  identified?    With  what  level  of  confidence?
--How  robust  is  the  solution  in  the  presence  of  imperfect  data  (does  it  work  well  even  if  data  is  missing  /  data  has  uncertainty  /  is  at  the  day-level  rather  than  more  granular)?
--Were  results  explained  in  a  way  that  is  helpful  to  UCSD  /  City officials?
+1.Appropriateness  of  analytics  techniques  used  to  solve  the  problem.
+2.Were  lift  stations  where  the  most  I&I  is  entering  during  a  rainstorm  identified?    With  what  level  of  confidence?
+3.How  robust  is  the  solution  in  the  presence  of  imperfect  data  (does  it  work  well  even  if  data  is  missing  /  data  has  uncertainty  /  is  at  the  day-level  rather  than  more  granular)?
+4.Were  results  explained  in  a  way  that  is  helpful  to  UCSD  /  City officials?
 
 # Datasets:
 The  following  historical  datasets  are  available: 
