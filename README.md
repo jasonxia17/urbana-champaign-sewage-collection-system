@@ -1,8 +1,9 @@
-# Urbana-Champaign-Sewage-Collection-System
-Organization  Name:  Urbana  &amp;  Champaign  Sanitary  District 
+# Detect  Leaks  in  the  Urbana  &  Champaign  Sewage  Collection  System
 
-# Sponsor: 
-Jackie Christensen, Director of Operations, Urbana and Champaign Sanitary District
+Organization  Name:  Urbana  &  Champaign  Sanitary  District  
+
+# Local  Sponsor:  
+Jackie  Christensen,  Director  of  Operations,  Urbana  &  Champaign  Sanitary  District 
 
 # Overview:
 The  mission  of  the  Urbana  &  Champaign  Sanitary  District  (UCSD)  is  to  protect  public  health  and  safety,  preserve  the  public  trust,  and  protect  the  natural  environment.  UCSD  is  a  municipal  body  which  provides  wastewater  treatment  for  properties  in  the  Cities  of  Urbana  and  Champaign,  the  Villages  of  Bondville  and  Savoy,  the  University  of  Illinois  and  the  surrounding  adjacent  developed  areas.    UCSD  operates  two  wastewater  treatment  plants.  The  Northeast  plant  is  located  in  Urbana  immediately  north  of  Ambucs  Park.  The  Southwest  plant  is  located  in  Champaign  at  the  intersection  of  Windsor  and  Rising  Roads.  UCSD  also  operates  large  diameter  sanitary  interceptor  sewers  and  28  pumping  stations  that  transport  wastewater  to  the  treatment  plants.  Champaign,  Urbana,  Savoy  and  the  University  of  Illinois  operate  their  respective  collector  sewers  to  which  homes  and  businesses  are  connected.
