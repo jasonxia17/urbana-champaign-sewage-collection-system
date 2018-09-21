@@ -80,6 +80,5 @@ USGS  operates  two  rain  gages  in  the  NE  Plant  basin:  urls  for  RDB  ou
   Time  zone  
   Total  Precipitation  [inches]  
 
-Boneyard  Creek:  https://nwis.waterservices.usgs.gov/nwis/iv/?format=rdb&sites=03337000&startDT=2012-01-01T00:00-0400&parameterCd=00045&siteStatus=all  
-
-South  Side  Elementary  School:  https://nwis.waterservices.usgs.gov/nwis/iv/?format=rdb&sites=400620088151801&startDT=2012-01-01T00:00-0400&parame
+Boneyard  Creek:   https://waterdata.usgs.gov/nwis/uv?site_no=03337000 
+                   Please select the dates from JANUARY 2012 to present with the Tab separated option.
