@@ -131,17 +131,17 @@ B. South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has
    Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated
 
 
-# Boneyard  Creek  Rain  Gage:
+# 5. Boneyard  Creek  Rain  Gage:
 Dataset Link:
 
 https://waterdata.usgs.gov/nwis/dvcb_00045=on&cb_00060=on&cb_00065=on&format=rdb&site_no=03337000&referred_module=sw&period=&begin_date=2012-01-01&end_date=2018-09-20South  
 
-# Side  Elementary  School  Rain  Gage:
+# 6. Side  Elementary  School  Rain  Gage:
 Dataset Link:
 
 https://nwis.waterdata.usgs.gov/il/nwis/uv/?cb_00045=on&format=rdb&site_no=400620088151801&period=&begin_date=2012-01-01&end_date=2018-09-24Maps:  
 
-# MAPS:
+# 7. MAPS:
 
 A. Filename:  LIFT  Station Map_Marked.pdf
 This  basin  map  shows  the  locations  of  all  the  lift  stations  in  the  UCSD  service  area.    The  NE  Plant  lift  stations  are  highlighted  in  purple  and  yellow.    Lift  stations  highlighted  in  purple  send  their  flow  directly  to  the  NE  Plant,  the  ones  highlighted  in  yellow  send  flow  to  another  lift  station  first  (as  indicated  in  red),  and  from  that  lift  station  the  flow  ultimately  reaches  the  NE  Plant.  
