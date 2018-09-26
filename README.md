@@ -73,6 +73,8 @@ A. Filename: NEPlift_dailyflow.xlsx
 *  Note:  Daily  wastewater  flow  values  of  zero  are  errors  and  should  be  considered  as  not  available. 
 
 B. Filename: NEPlift_data.csv 
+Dataset Link: https://www.dropbox.com/s/0th51a09xrx0h92/lift-data.csv?dl=0
+
 *  Date    
 *  Time   
 *  Millitm 
@@ -106,11 +108,15 @@ A. Filename:  NOAA.csv
 
 A. Boneyard  Creek  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)
 
+Dataset Link: https://waterdata.usgs.gov/nwis/dvcb_00045=on&cb_00060=on&cb_00065=on&format=rdb&site_no=03337000&referred_module=sw&period=&begin_date=2012-01-01&end_date=2018-09-20
+
 *  Agency  
 *  Site  Number  
 *  Datetime 
 *  Time  zone  
-*  Discharge  in  Boneyard  Creek  [cubic  feet  per  second]  /  Approval  Status    Gage  Height  [feet]  /  Approval  Status  
+*  Discharge  in  Boneyard  Creek  [cubic  feet  per  second]  /  Approval  Status 
+   Note: The discharge is the flow of water in the Boneyard Creek where the raingage is located.
+*  Gage  Height  [feet]  /  Approval  Status  
 *  Total  Precipitation  [inches]  /  Approval  Status  Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is     
    estimated  South  Side  Elementary  School  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)  
 *  Agency 
@@ -144,16 +150,23 @@ https://nwis.waterdata.usgs.gov/il/nwis/uv/?cb_00045=on&format=rdb&site_no=40062
 
 A. Filename:  LIFT  Station Map_Marked.pdf
 
+Link: https://www.dropbox.com/sh/j27y1gj2lme32uv/AAAKNkFEcsIRpXxcPknMBgcKa?dl=0&preview=LIFT+Station+Map_Marked.pdf
+
 This  basin  map  shows  the  locations  of  all  the  lift  stations  in  the  UCSD  service  area.    The  NE  Plant  lift  stations  are  highlighted  in  purple  and  yellow.    Lift  stations  highlighted  in  purple  send  their  flow  directly  to  the  NE  Plant,  the  ones  highlighted  in  yellow  send  flow  to  another  lift  station  first  (as  indicated  in  red),  and  from  that  lift  station  the  flow  ultimately  reaches  the  NE  Plant.
 
 B. Filename:  LIFT  Station  and  Interceptor Map.pdf
 
+Link: https://www.dropbox.com/sh/j27y1gj2lme32uv/AAAKNkFEcsIRpXxcPknMBgcKa?dl=0&preview=LIFT+Station+Map_Marked.pdf
+
 This  is  a  detailed  basin  map  showing  the  locations  of  all  lift  stations  and  lift  stations  in  the  UCSD  service  area.
 
 C. Filename:  NOAA  Weather Station Map.pdf 
+
+Link: https://www.dropbox.com/sh/j27y1gj2lme32uv/AAAKNkFEcsIRpXxcPknMBgcKa?dl=0&preview=NOAA+Weather+Station+Map.pdf
 
 This  is  a  map  showing  the  locations  of  the  NOAA  weather  stations  in  the  UCSD  service  area.    The  weather  stations  marked  in  green  are  in  the  NE  Plant  service  area.
 
 # Final  Note:
 
 The  day-level  datasets  provided  here  are  more  complete  than  the  more  granular  data.    Both  are  provided  to  give  teams  flexibility  to  explore  innovative  solutions.    Teams  can  decide  which  of  the  datasets  they  want  to  use  in  their  analysis,  it  is  not  necessary  to  use  all  that  we  have  provided.    As  is  the  case  when  working  on  real-world  problems,  neither  dataset  is  perfect,  but  we  believe  useful  insight  to  the  I&I  problem  can  be  obtained  from  the  data  available.
+                  
