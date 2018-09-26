@@ -46,7 +46,7 @@ Lift  stations  are  located  throughout  the  sewage  collection  system,  and 
 4. Were  results  explained  in  a  way  that  is  helpful  to  UCSD  /  City officials?
 
 # Datasets: 
-Please find the datasets uploaded as xlsx/csv files in the repository. Below is a list of the datasets and columns in each datasets.
+Please find the datasets uploaded as xlsx/csv files in the repository under the name 'Data'. Below is a list of the datasets and columns in each datasets.
 
 # 1. NE  Plant  Flow  Data: 
 
@@ -141,7 +141,7 @@ https://nwis.waterdata.usgs.gov/il/nwis/uv/?begin_date=2012-01-01&cb_00045=on&en
    Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated
 
 # 5. MAPS:
-Please find the pdf map files in the repository. 
+Please find the pdf map files in the repository under the name 'Maps' 
 
 A. Filename: LIFT  Station Map_Marked.pdf
 
