@@ -148,7 +148,8 @@ This  basin  map  shows  the  locations  of  all  the  lift  stations  in  the  
 
 B. Filename:  LIFT  Station  and  Interceptor Map.pdf
 
-This  is  a  detailed  basin  map  showing  the  locations  of  all  lift  stations  and  lift  stations  in  the  UCSD  service  area.  
+This  is  a  detailed  basin  map  showing  the  locations  of  all  lift  stations  and  lift  stations  in  the  UCSD  service  area.
+
 C. Filename:  NOAA  Weather Station Map.pdf 
 
 This  is  a  map  showing  the  locations  of  the  NOAA  weather  stations  in  the  UCSD  service  area.    The  weather  stations  marked  in  green  are  in  the  NE  Plant  service  area.
