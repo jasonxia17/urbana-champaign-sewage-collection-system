@@ -43,84 +43,92 @@ Lift  stations  are  located  throughout  the  sewage  collection  system,  and 
 # Evaluation  criteria:
 1. Appropriateness  of  analytics  techniques  used  to  solve  the  problem.
 2. Were  lift  stations  where  the  most  I&I  is  entering  during  a  rainstorm  identified?    With  what  level  of  confidence?
-3. How  robust  is  the  solution  in  the  presence  of  imperfect  data  (does  it  work  well  even  if  data  is  missing  /  data  has  uncertainty  /  is  at  the  day-level  rather  than  more  granular)?
+3. How  robust  is  the  solution  in  the  presence  of  imperfect  data  (does  it  work  well  even  if  data  is  missing  /  data      has  uncertainty  /  is  at  the  day-level  rather  than  more  granular)?
 4. Were  results  explained  in  a  way  that  is  helpful  to  UCSD  /  City officials?
 
 # Datasets:
 
-# 1. NE  Plant  Flow  Data:    
+# 1. NE  Plant  Flow  Data: 
+
 A. Filename: NEPinfluent_dailyflow.xlsx
-* Bullet list
-  Month 
-  Day  
-  Year 
-  Total  Influent  Flow  [MGD  =  Million  Gallons  Per  Day] 
-  Note:  The  flow  shown  in  this  dataset  is  the  actual  total  daily  wastewater  (i.e.,  influent)  flow  entering  the  NE  Plant. 
+*  Month 
+*  Day  
+*  Year 
+*  Total  Influent  Flow  [MGD  =  Million  Gallons  Per  Day] 
+*  Note:  The  flow  shown  in  this  dataset  is  the  actual  total  daily  wastewater  (i.e.,  influent)  flow  entering  the  NE     
+   Plant. 
 
 B. Filename: NEPinfluent_instantflow.csv
-  Date 
-  Time 
-  Total  Influent  Flow  [MGD  =  Million  Gallons  Per  Day]  
-  Note  1:  The  flow  shown  in  this  dataset  is  the  instantaneous  wastewater  (i.e.,  influent)  flow  entering  the  NE  Plant,  which  is  defined  at  the  wastewater  flow  entering  the  NE  Plant  at  that  specific  point  in  time.   
-  Note  2:  For  those  who  are  wondering,  the  units  for  daily  influent  flow  and  instantaneous  flow  are  the  same.    Daily  flow  is  the  actual  volume  of  influent  received  on  a  particular  day  at  the  NE  Plant,  instantaneous  flow  is  a  measure  of  what  the  volume  received  would  have  been  if  the  instantaneous  flow  rate  were  sustained  over  a  24-hour  period.  
+*  Date 
+*  Time 
+*  Total  Influent  Flow  [MGD  =  Million  Gallons  Per  Day]  
+*  Note  1:  The  flow  shown  in  this  dataset  is  the  instantaneous  wastewater  (i.e.,  influent)  flow  entering  the  NE  Plant,    which  is  defined  at  the  wastewater  flow  entering  the  NE  Plant  at  that  specific  point  in  time.   
+*  Note  2:  For  those  who  are  wondering,  the  units  for  daily  influent  flow  and  instantaneous  flow  are  the  same.     
+   Daily  flow  is  the  actual  volume  of  influent  received  on  a  particular  day  at  the  NE  Plant,  instantaneous  flow  is  a    measure  of  what  the  volume  received  would  have  been  if  the  instantaneous  flow  rate  were  sustained  over  a  24-hour      period.  
 
-# LIFT  Station  Data:  
+# 2. LIFT  Station  Data:  
 
 A. Filename: NEPlift_dailyflow.xlsx
-  Date
-  Each  following  column  represents  the  daily  wastewater  flow  at  that  lift  station  [gallons/day]  
-  Note:  Daily  wastewater  flow  values  of  zero  are  errors  and  should  be  considered  as  not  available. 
+*  Date
+*  Each  following  column  represents  the  daily  wastewater  flow  at  that  lift  station  [gallons/day]  
+*  Note:  Daily  wastewater  flow  values  of  zero  are  errors  and  should  be  considered  as  not  available. 
 
 B. Filename: NEPlift_data.csv 
-  Date    
-  Time   
-  Millitm 
-  Each  following  column  represents  pump  status  or  liquid  level  for  the  following  lift  stations:  Broadway,  Myra,  I-74,  Locust  Street,  and  Race  Street  
-    o  Pump  Status  for  Each  Pump  at  a  Lift  Station  [1  =  ON  &  0  =  OFF] 
-    o  Liquid  Level  [the  wastewater  liquid  level  in  each  lift  station  measured  in  feet] 
-  Note  1:  To  determine  the  pump  flow  rate  at  a  given  lift  station,  one  must  look  at  how  many  pumps  are  running  at  each  lift  station  and  match  with  the  pump  capacity  chart  shown  in NEPlift_pumpcapacity.xlsx excel  spreadsheet.  
-  Note  2:  Only  give  NE  Plant  lift  stations  have  pump  status  and  level  data,  whereas,  almost  all  NE  Plant  lift  stations  have  daily  wastewater  flow  data.    
+*  Date    
+*  Time   
+*  Millitm 
+*  Each  following  column  represents  pump  status  or  liquid  level  for  the  following  lift  stations:  Broadway,  Myra,  I-74,   
+   Locust  Street  and  Race  Street  
+    *  Pump  Status  for  Each  Pump  at  a  Lift  Station  [1  =  ON  &  0  =  OFF] 
+    *  Liquid  Level  [the  wastewater  liquid  level  in  each  lift  station  measured  in  feet] 
+*  Note  1:  To  determine  the  pump  flow  rate  at  a  given  lift  station,  one  must  look  at  how  many  pumps  are  running  at    each  lift  station  and  match  with  the  pump  capacity  chart  shown  in NEPlift_pumpcapacity.xlsx excel  spreadsheet.  
+*  Note  2:  Only  give  NE  Plant  lift  stations  have  pump  status  and  level  data,  whereas,  almost  all  NE  Plant  lift   
+   stations  have  daily  wastewater  flow  data.    
 
-B. Filename: NEPlift_pumpcapacity.xlsx 
-  Lift  Station  Name  
-  Pump  Capacity  [GPM  =  Gallons  Per  Minute] 
-  Note:  Pump  capacity  at  a  lift  station  changes  depending  on  whether  1,  2,  or  3  pumps  are  running,  as  shown  in  the  excel  sheet.Where  there  are  blanks  in  the  third  pump  column,  it  means  there  is  not  third  pump  at  that  lift  station.
+C. Filename: NEPlift_pumpcapacity.xlsx 
+*  Lift  Station  Name  
+*  Pump  Capacity  [GPM  =  Gallons  Per  Minute] 
+*  Note:  Pump  capacity  at  a  lift  station  changes  depending  on  whether  1,  2,  or  3  pumps  are  running,  as  shown  in  the    excel  sheet.Where  there  are  blanks  in  the  third  pump  column,  it  means  there  is  not  third  pump  at  that  lift    
+   station.
 
-# NOAA  Weather  Data:
+# 3. NOAA  Weather  Data:
 
 A. Filename:  NOAA.csv 
-  Station  ID
-  Station  Name  
-  Latitude  
-  Longitude  
-  Elevation  
-  Date  
-  PCRP  [daily  precipitation  in  inches]  
-  Note:  Data  for  the  7  NOAA  weather  stations  in  the  NE  Plant  basin  are  provided. 
+*  Station  ID
+*  Station  Name  
+*  Latitude  
+*  Longitude  
+*  Elevation  
+*  Date  
+*  PCRP  [daily  precipitation  in  inches]  
+*  Note:  Data  for  the  7  NOAA  weather  stations  in  the  NE  Plant  basin  are  provided. 
 
-# USGS  Rain  Gage  Data: 
-Boneyard  Creek  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)
+# 4. USGS  Rain  Gage  Data: 
 
-  Agency  
-  Site  Number  
-  Datetime 
-  Time  zone  
-  Discharge  in  Boneyard  Creek  [cubic  feet  per  second]  /  Approval  Status    Gage  Height  [feet]  /  Approval  Status  
-  Total  Precipitation  [inches]  /  Approval  Status  Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated  South  Side  Elementary  School  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)  
-  Agency 
-  Site  Number  
-  Datetime  
-  Time  zone 
-  Total  Precipitation  [inches]  /  Approval  Status  
+A. Boneyard  Creek  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)
+
+*  Agency  
+*  Site  Number  
+*  Datetime 
+*  Time  zone  
+*  Discharge  in  Boneyard  Creek  [cubic  feet  per  second]  /  Approval  Status    Gage  Height  [feet]  /  Approval  Status  
+*  Total  Precipitation  [inches]  /  Approval  Status  Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is     
+   estimated  South  Side  Elementary  School  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)  
+*  Agency 
+*  Site  Number  
+*  Datetime  
+*  Time  zone 
+*  Total  Precipitation  [inches]  /  Approval  Status  
    Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated  
 
-South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has  been  provided) 
-  Agency 
-  Site  Number 
-  Datetime 
-  Time  zone 
-  Total  Precipitation  [inches]  /  Approval  Status
-Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated
+B. South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has  been  provided)
+
+*  Agency 
+*  Site  Number 
+*  Datetime 
+*  Time  zone 
+*  Total  Precipitation  [inches]  /  Approval  Status
+   Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated
 
 
 # Boneyard  Creek  Rain  Gage:
@@ -140,7 +148,7 @@ This  basin  map  shows  the  locations  of  all  the  lift  stations  in  the  
 
 B. Filename:  LIFT  Station  and  Interceptor Map.pdf
 This  is  a  detailed  basin  map  showing  the  locations  of  all  lift  stations  and  lift  stations  in  the  UCSD  service  area.  
-C. Filename:  NOAA  Weather  Station Map.pdf 
+C. Filename:  NOAA  Weather Station Map.pdf 
 This  is  a  map  showing  the  locations  of  the  NOAA  weather  stations  in  the  UCSD  service  area.    The  weather  stations  marked  in  green  are  in  the  NE  Plant  service  area.
 
 # Final  Note:
