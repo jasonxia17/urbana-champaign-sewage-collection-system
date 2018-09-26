@@ -45,7 +45,8 @@ Lift  stations  are  located  throughout  the  sewage  collection  system,  and 
 3. How  robust  is  the  solution  in  the  presence  of  imperfect  data  (does  it  work  well  even  if  data  is  missing  /  data      has  uncertainty  /  is  at  the  day-level  rather  than  more  granular)?
 4. Were  results  explained  in  a  way  that  is  helpful  to  UCSD  /  City officials?
 
-# Datasets:
+# Datasets: 
+Please find the datasets uploaded as xlsx/csv files in the repository. Below is a list of the datasets and columns in each datasets.
 
 # 1. NE  Plant  Flow  Data: 
 
@@ -73,8 +74,6 @@ A. Filename: NEPlift_dailyflow.xlsx
 *  Note:  Daily  wastewater  flow  values  of  zero  are  errors  and  should  be  considered  as  not  available. 
 
 B. Filename: NEPlift_data.csv 
-Dataset Link: https://www.dropbox.com/s/0th51a09xrx0h92/lift-data.csv?dl=0
-
 *  Date    
 *  Time   
 *  Millitm 
@@ -106,9 +105,10 @@ A. Filename:  NOAA.csv
 
 # 4. USGS  Rain  Gage  Data: 
 
-A. Boneyard  Creek  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)
+A. Boneyard  Creek  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided below)
 
-Dataset Link: https://waterdata.usgs.gov/nwis/dvcb_00045=on&cb_00060=on&cb_00065=on&format=rdb&site_no=03337000&referred_module=sw&period=&begin_date=2012-01-01&end_date=2018-09-20
+Dataset link: 
+https://waterdata.usgs.gov/nwis/dv?cb_00045=on&cb_00060=on&cb_00065=on&format=rdb&site_no=03337000&referred_module=sw&period=&begin_date=2012-01-01&end_date=2018-09-20
 
 *  Agency  
 *  Site  Number  
@@ -126,7 +126,10 @@ Dataset Link: https://waterdata.usgs.gov/nwis/dvcb_00045=on&cb_00060=on&cb_00065
 *  Total  Precipitation  [inches]  /  Approval  Status  
    Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated  
 
-B. South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has  been  provided)
+B. South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has  been  provided below)
+
+Dataset link:
+https://nwis.waterdata.usgs.gov/il/nwis/uv/?begin_date=2012-01-01&cb_00045=on&end_date=2018-09-24&format=rdb&period=&site_no=400620088151801
 
 *  Agency 
 *  Site  Number 
@@ -135,35 +138,16 @@ B. South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has
 *  Total  Precipitation  [inches]  /  Approval  Status
    Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated
 
-
-# 5. Boneyard  Creek  Rain  Gage:
-Dataset Link:
-
-https://waterdata.usgs.gov/nwis/dvcb_00045=on&cb_00060=on&cb_00065=on&format=rdb&site_no=03337000&referred_module=sw&period=&begin_date=2012-01-01&end_date=2018-09-20South  
-
-# 6. Side  Elementary  School  Rain  Gage:
-Dataset Link:
-
-https://nwis.waterdata.usgs.gov/il/nwis/uv/?cb_00045=on&format=rdb&site_no=400620088151801&period=&begin_date=2012-01-01&end_date=2018-09-24Maps:  
-
-# 7. MAPS:
+# 5. MAPS:
+Please find the pdf map files in the repository. 
 
 A. Filename:  LIFT  Station Map_Marked.pdf
-
-Link: https://www.dropbox.com/sh/j27y1gj2lme32uv/AAAKNkFEcsIRpXxcPknMBgcKa?dl=0&preview=LIFT+Station+Map_Marked.pdf
-
 This  basin  map  shows  the  locations  of  all  the  lift  stations  in  the  UCSD  service  area.    The  NE  Plant  lift  stations  are  highlighted  in  purple  and  yellow.    Lift  stations  highlighted  in  purple  send  their  flow  directly  to  the  NE  Plant,  the  ones  highlighted  in  yellow  send  flow  to  another  lift  station  first  (as  indicated  in  red),  and  from  that  lift  station  the  flow  ultimately  reaches  the  NE  Plant.
 
 B. Filename:  LIFT  Station  and  Interceptor Map.pdf
-
-Link: https://www.dropbox.com/sh/j27y1gj2lme32uv/AAAKNkFEcsIRpXxcPknMBgcKa?dl=0&preview=LIFT+Station+Map_Marked.pdf
-
 This  is  a  detailed  basin  map  showing  the  locations  of  all  lift  stations  and  lift  stations  in  the  UCSD  service  area.
 
 C. Filename:  NOAA  Weather Station Map.pdf 
-
-Link: https://www.dropbox.com/sh/j27y1gj2lme32uv/AAAKNkFEcsIRpXxcPknMBgcKa?dl=0&preview=NOAA+Weather+Station+Map.pdf
-
 This  is  a  map  showing  the  locations  of  the  NOAA  weather  stations  in  the  UCSD  service  area.    The  weather  stations  marked  in  green  are  in  the  NE  Plant  service  area.
 
 # Final  Note:
