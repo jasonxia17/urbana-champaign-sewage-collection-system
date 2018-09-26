@@ -41,15 +41,16 @@ Lift  stations  are  located  throughout  the  sewage  collection  system,  and 
 18.  LELS
 
 # Evaluation  criteria:
-1.ppropriateness  of  analytics  techniques  used  to  solve  the  problem.
-2.Were  lift  stations  where  the  most  I&I  is  entering  during  a  rainstorm  identified?    With  what  level  of  confidence?
-3.How  robust  is  the  solution  in  the  presence  of  imperfect  data  (does  it  work  well  even  if  data  is  missing  /  data  has  uncertainty  /  is  at  the  day-level  rather  than  more  granular)?
-4.Were  results  explained  in  a  way  that  is  helpful  to  UCSD  /  City officials?
+1. Appropriateness  of  analytics  techniques  used  to  solve  the  problem.
+2. Were  lift  stations  where  the  most  I&I  is  entering  during  a  rainstorm  identified?    With  what  level  of  confidence?
+3. How  robust  is  the  solution  in  the  presence  of  imperfect  data  (does  it  work  well  even  if  data  is  missing  /  data  has  uncertainty  /  is  at  the  day-level  rather  than  more  granular)?
+4. Were  results  explained  in  a  way  that  is  helpful  to  UCSD  /  City officials?
 
 # Datasets:
 
 # 1. NE  Plant  Flow  Data:    
 A. Filename: NEPinfluent_dailyflow.xlsx
+* Bullet list
   Month 
   Day  
   Year 
@@ -142,5 +143,6 @@ This  is  a  detailed  basin  map  showing  the  locations  of  all  lift  stati
 C. Filename:  NOAA  Weather  Station Map.pdf 
 This  is  a  map  showing  the  locations  of  the  NOAA  weather  stations  in  the  UCSD  service  area.    The  weather  stations  marked  in  green  are  in  the  NE  Plant  service  area.
 
-# Final  Note: 
+# Final  Note:
+
 The  day-level  datasets  provided  here  are  more  complete  than  the  more  granular  data.    Both  are  provided  to  give  teams  flexibility  to  explore  innovative  solutions.    Teams  can  decide  which  of  the  datasets  they  want  to  use  in  their  analysis,  it  is  not  necessary  to  use  all  that  we  have  provided.    As  is  the  case  when  working  on  real-world  problems,  neither  dataset  is  perfect,  but  we  believe  useful  insight  to  the  I&I  problem  can  be  obtained  from  the  data  available.
