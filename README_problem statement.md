@@ -118,8 +118,8 @@ https://waterdata.usgs.gov/nwis/dv?cb_00045=on&cb_00060=on&cb_00065=on&format=rd
 *  Discharge  in  Boneyard  Creek  [cubic  feet  per  second]  /  Approval  Status 
    Note: The discharge is the flow of water in the Boneyard Creek where the raingage is located.
 *  Gage  Height  [feet]  /  Approval  Status  
-*  Total  Precipitation  [inches]  /  Approval  Status  Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is     
-   estimated 
+*  Total  Precipitation  [inches]  /  Approval  Status  
+*  Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated 
 
 B. South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has  been  provided below)
 
