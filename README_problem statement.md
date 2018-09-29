@@ -17,7 +17,7 @@ By  detecting  and  fixing  leaks  in  the  sewage  collection  system,  one  ca
 
 For  this  problem  we  encourage  teams  to  develop  innovative  ways  to  identify  areas  of  potential  I&I  in  the  UCSD  sewage  collection  system,  using  historical  plant  flow  data,  lift  station  flow  data,  and  precipitation  data.    For  this  challenge  we  will  focus  on  the  UCSD  NE  plant,  and  assume  that  similar  techniques  would  work  for  the  UCSD  SW  plant  (where  similar  data  is  available).  In  addition  to  historical  flow  data,  we  have  provided  basin  maps  to  understand  the  flow  of  lift  stations  into  other  lift  stations,  and  ultimately  into  the  NE  plant.    The  goal  of  this  challenge  will be  to  identify  the  specific  lift  stations  where  the  most  I&I  is  entering  during  a  rainstorm  event.    The  results  of  this  challenge  which  will  help  guide  where  money  should  be  spent  for  collection  system  repair.   
 
-# North East  Plant  LIFT  Stations: 
+# Northeast  Plant  Lift  Stations: 
 Lift  stations  are  located  throughout  the  sewage  collection  system,  and  represent  points  in  the  collection  system  where  water  is  pumped  and  moved  towards  the  treatment  plant.    Data  is  collected  at  lift  stations,  including  pump  status,  liquid  level,  and  daily  flow  rates.    Given  that  data  is  available  at  lift  stations,  but  not  at  other  points  in  the  collection  system,  this  problem  focuses  on  identifying  lift  stations  where  the  most  I&I  is  entering.    By  identifying  these  lift  stations,  we  can  focus  our  leak  detection  /  remediation  efforts  on  the  subsections  of  the  collections  system  that  feed  into  these  lift  stations.    Below  is  a  list  of  the  lift  stations  within  the  NE  Plant  basin.    Sewage  from  certain  lift  stations  will  flow  through  another  lift  station  prior  to  entering  the  NE  Plant,  which  is  also  indicated  in  the  list  below.     
 
 1.  Bradley-McKinley 
@@ -66,7 +66,7 @@ B. Filename: NEPinfluent_instantflow.csv
 *  Note  2:  For  those  who  are  wondering,  the  units  for  daily  influent  flow  and  instantaneous  flow  are  the  same.     
    Daily  flow  is  the  actual  volume  of  influent  received  on  a  particular  day  at  the  NE  Plant,  instantaneous  flow  is  a    measure  of  what  the  volume  received  would  have  been  if  the  instantaneous  flow  rate  were  sustained  over  a  24-hour      period.  
 
-# 2. LIFT  Station  Data:  
+# 2. Lift  Station  Data:  
 
 A. Filename: NEPlift_dailyflow.xlsx
 *  Date
@@ -119,13 +119,7 @@ https://waterdata.usgs.gov/nwis/dv?cb_00045=on&cb_00060=on&cb_00065=on&format=rd
    Note: The discharge is the flow of water in the Boneyard Creek where the raingage is located.
 *  Gage  Height  [feet]  /  Approval  Status  
 *  Total  Precipitation  [inches]  /  Approval  Status  Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is     
-   estimated  South  Side  Elementary  School  Rain  Gage  (a  link  to  the  tsv  file  has  been  provided)  
-*  Agency 
-*  Site  Number  
-*  Datetime  
-*  Time  zone 
-*  Total  Precipitation  [inches]  /  Approval  Status  
-   Approval  Status:  A  =  approved,  P  =  provisional,  e  =  value  is  estimated  
+   estimated 
 
 B. South  Side  Elementary  School  Rain  Gage (a  link  to  the  tsv  file  has  been  provided below)
 
@@ -143,11 +137,11 @@ https://nwis.waterdata.usgs.gov/il/nwis/uv/?begin_date=2012-01-01&cb_00045=on&en
 # 5. MAPS:
 Please find the pdf map files in the repository under the name 'Maps' 
 
-A. Filename: LIFT  Station Map_Marked.pdf
+A. Filename: Lift Station Map_Marked.pdf
 
 This  basin  map  shows  the  locations  of  all  the  lift  stations  in  the  UCSD  service  area.    The  NE  Plant  lift  stations  are  highlighted  in  purple  and  yellow.    Lift  stations  highlighted  in  purple  send  their  flow  directly  to  the  NE  Plant,  the  ones  highlighted  in  yellow  send  flow  to  another  lift  station  first  (as  indicated  in  red),  and  from  that  lift  station  the  flow  ultimately  reaches  the  NE  Plant.
 
-B. Filename:  LIFT  Station  and  Interceptor Map.pdf
+B. Filename:  Lift  Station  and  Interceptor Map.pdf
 
 This  is  a  detailed  basin  map  showing  the  locations  of  all  lift  stations  and  lift  stations  in  the  UCSD  service  area.
 
