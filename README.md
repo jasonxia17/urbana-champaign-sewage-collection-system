@@ -15,6 +15,10 @@ The parsing and processing of data was done with Python and NumPy, and the data 
 
 Lifts which are very vulnerable to inflow include Timber Hills, O_ L_ Johnson, and Bradley McKinley. Slightly less vulnerable lifts include East Main, Perkins, and Broadway.
 
+See All_Plots.pdf for a lot of pretty graphs!
+
+https://github.com/jasonxia17/urbana-champaign-sewage-collection-system/blob/master/All_Plots.pdf
+
 ## Potential Improvements to Analysis
 
 Currently, the precipitation value for any given date is calculated as the average of the measurements from all weather stations in the Champaign-Urbana station. A more through analysis could use the precipitation measurement from the closest station to a lift when analyzing that lift's data.
